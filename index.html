@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Operación Extracción</title>
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; background: #000; font-family: Arial, sans-serif; }
+    canvas { display: block; }
+    #menu { position: fixed; inset: 0; display: grid; place-items: center; background: #000a; color: #fff; z-index: 3; cursor: pointer; }
+    #menu div { background: #111d; padding: 20px 28px; border-radius: 12px; text-align: center; }
+    #crosshair { position: fixed; left: 50%; top: 50%; width: 18px; height: 18px; transform: translate(-50%, -50%); z-index: 2; pointer-events: none; }
+    #crosshair::before, #crosshair::after { content: ''; position: absolute; background: #fff; }
+    #crosshair::before { width: 18px; height: 2px; top: 8px; left: 0; }
+    #crosshair::after { width: 2px; height: 18px; top: 0; left: 8px; }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./libs/three.module.js",
+      "three/addons/": "./libs/addons/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="menu"><div><b>Haz clic para jugar</b><br>WASD: moverse · Mouse: mirar</div></div>
+  <div id="crosshair"></div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

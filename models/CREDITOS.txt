@@ -1,0 +1,22 @@
+CREDITOS DE LOS MODELOS 3D (copiar al README.md)
+
+Modificaciones hechas a los modelos originales: conversion de glTF a GLB, texturas reducidas a 1024x1024 (JPEG/WebP) y,
+en el pack de zombis, extraccion de cada zombi en su propio archivo (con su animacion).
+
+- Armas
+  * "Mosin Nagant 1891" por KusogakiVirus (https://sketchfab.com/Kusogakivirus)
+    https://sketchfab.com/3d-models/mosin-nagant-1891-ca5c87e67a594751a74604eecaf2a335
+    Licencia CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/) - requiere credito y NO permite uso comercial.
+  * "Tokyo Marui Strike Warrior .45" por KusogakiVirus (https://sketchfab.com/four20068)
+    https://sketchfab.com/3d-models/tokyo-marui-strike-warrior-45-7056d7a4a04146c3b1a6086c25db5503
+    Licencia CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+
+- Zombis
+  * "Polyart Zombies with Animations Free Pack" por Denys Almaral (https://sketchfab.com/denysalmaral)
+    https://sketchfab.com/3d-models/polyart-zombies-with-animations-free-pack-d9bcfdd88f5348549bc947226af7c314
+    Licencia Sketchfab Standard (https://sketchfab.com/licenses)
+
+- Escenario
+  * "Ciudad" por fernandogilmiranda (https://sketchfab.com/fernandogilmiranda)
+    https://sketchfab.com/3d-models/ciudad-98a66235251148e8a8ab44943703236e
+    Licencia CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
